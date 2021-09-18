@@ -18,4 +18,42 @@ pBatu.addEventListener("click", function () {
   const pilComp = getPilComp();
   const pilPlayer = pBatu.className;
   const hasil = getHasil(pilComp, pilPlayer);
+
+  const imgComputer = document.querySelector(".comp img");
+  //   const imgCompSelect = imgComputer.querySelector(".batu");
+  //   console.log(imgCompSelect);
+
+  const info = document.querySelector(".info");
+  info.classList.toggle("menang");
+  info.innerHTML = hasil;
+});
+
+const pKertas = document.querySelector(".player .kertas");
+pKertas.addEventListener("click", function () {
+  const pilComp = getPilComp();
+  const pilPlayer = pKertas.className;
+  const hasil = getHasil(pilComp, pilPlayer);
+
+  const imgComputer = document.querySelector(".comp img");
+  //   const imgCompSelect = imgComputer.querySelector(".batu");
+  //   console.log(imgCompSelect);
+
+  const info = document.querySelector(".info");
+  info.classList.toggle("menang");
+  info.innerHTML = hasil;
+});
+
+const pGunting = document.querySelector(".player .gunting");
+pGunting.addEventListener("click", function () {
+  const pilComp = getPilComp();
+  const pilPlayer = pGunting.className;
+  const hasil = getHasil(pilComp, pilPlayer);
+
+  const imgComputer = document.querySelector(".comp img");
+  //   const imgCompSelect = imgComputer.querySelector(".batu");
+  //   console.log(imgCompSelect);
+
+  const info = document.querySelector(".info");
+  info.classList.toggle("menang");
+  info.innerHTML = hasil;
 });
