@@ -181,6 +181,11 @@ p.judul {
   flex: 1;
 }
 
+.info p {
+  color: #bd0000;
+  font-size: 52px;
+}
+
 .comp {
   flex: 2;
 }
@@ -219,4 +224,13 @@ ul {
 
 .refresh a img {
   width: 50px;
+}
+
+.menang {
+  /* width: 150px;
+  height: 75px; */
+  background-color: #4c9654;
+  border-radius: 10px;
+  padding: 30px;
+  color: #fff;
 }
